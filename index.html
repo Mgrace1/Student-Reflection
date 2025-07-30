@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="pageTitle">Student Reflection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="language-switch">
+    <button onclick="setLanguage('en')">English</button>
+    <button onclick="setLanguage('fr')">Français</button>
+  </div>
+
+  <header>
+    <h1 data-i18n="welcome">Welcome to My Reflection Page</h1>
+    <p data-i18n="intro">Here is my reflection on the course and how I experienced it.</p>
+  </header>
+
+  <section class="how-it-works">
+    <h2 data-i18n="howTitle">Reflection Questions</h2>
+    <div class="steps">
+      <div class="step-box">
+        <div class="circle">1</div>
+        <p class="desc" data-i18n="step1">What did you enjoy most about the course?</p>
+      </div>
+      <div class="step-box">
+        <div class="circle">2</div>
+        <p class="desc" data-i18n="step2">What was the most challenging part?</p>
+      </div>
+      <div class="step-box">
+        <div class="circle">3</div>
+        <p class="desc" data-i18n="step3">What could be improved?</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reflection">
+    <h2 data-i18n="reflectionTitle">My Reflection answers</h2>
+    <div class="question-box">
+      <p data-i18n="q1">I enjoyed learning how to build full stack applications and working on real-life projects with my classmates</p>
+    </div>
+    <div class="question-box">
+      <p data-i18n="q2">The most challenging part was understanding the backend logic and database relationships at first.</p>
+    </div>
+    <div class="question-box">
+      <p data-i18n="q3">More time for group work and practical exercises would improve the learning experience.</p>
+    </div>
+  </section>
+<script src="translations.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
