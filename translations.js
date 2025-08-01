@@ -7,10 +7,8 @@ const translations = {
     step1: "What did you enjoy most about the course?",
     step2: "What was the most challenging part?",
     step3: "What could be improved?",
-    reflectionTitle: "My Reflection answers",
-    q1: "I enjoyed learning how to build full stack applications and working on real-life projects with my classmates",
-    q2: "The most challenging part was understanding the backend logic and database relationships at first.",
-    q3: "More time for group work and practical exercises would improve the learning experience."
+    reflectionTitle: "Your Answers",
+    submitBtn: "Submit Reflection"
   },
   fr: {
     pageTitle: "Réflexion de l'étudiant",
@@ -20,9 +18,18 @@ const translations = {
     step1: "Qu'avez-vous le plus apprécié dans le cours ?",
     step2: "Quelle a été la partie la plus difficile ?",
     step3: "Que pourrait-on améliorer ?",
-    reflectionTitle: "Mes réponses de réflexion",
-    q1: "J'ai apprécié apprendre à créer des applications full stack et travailler sur des projets réels avec mes camarades de classe.",
-    q2: "La partie la plus difficile était de comprendre la logique backend et les relations entre les bases de données au début.",
-    q3: "Plus de temps pour le travail en groupe et les exercices pratiques améliorerait l'expérience d'apprentissage."
+    reflectionTitle: "Vos Réponses",
+    submitBtn: "Soumettre la réflexion"
+  },
+  rw: {
+    pageTitle: "Isesengura ry’umunyeshuri",
+    welcome: "Ikaze ku rupapuro rwanjye rw’isesengura",
+    intro: "Dore uko nasesenguye amasomo n’uko nayakiriye.",
+    howTitle: "Ibibazo by’isesengura",
+    step1: "Ni iki wishimiye cyane mu masomo?",
+    step2: "Ni iki cyakugoye cyane?",
+    step3: "Ni iki cyakosorwa cyangwa cyakongerwa?",
+    reflectionTitle: "Ibisubizo byawe",
+    submitBtn: "Ohereza Isesengura"
   }
 };

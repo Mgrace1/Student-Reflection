@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title data-i18n="pageTitle">Student Reflection</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -10,6 +10,7 @@
   <div class="language-switch">
     <button onclick="setLanguage('en')">English</button>
     <button onclick="setLanguage('fr')">Français</button>
+    <button onclick="setLanguage('rw')">Kinyarwanda</button>
   </div>
 
   <header>
@@ -36,18 +37,25 @@
   </section>
 
   <section class="reflection">
-    <h2 data-i18n="reflectionTitle">My Reflection answers</h2>
-    <div class="question-box">
-      <p data-i18n="q1">I enjoyed learning how to build full stack applications and working on real-life projects with my classmates</p>
-    </div>
-    <div class="question-box">
-      <p data-i18n="q2">The most challenging part was understanding the backend logic and database relationships at first.</p>
-    </div>
-    <div class="question-box">
-      <p data-i18n="q3">More time for group work and practical exercises would improve the learning experience.</p>
-    </div>
+    <h2 data-i18n="reflectionTitle">Your Answers</h2>
+    <form id="reflectionForm">
+      <div class="question-box">
+        <label data-i18n="step1" for="ans1">What did you enjoy most about the course?</label>
+        <textarea id="ans1" name="ans1" required></textarea>
+      </div>
+      <div class="question-box">
+        <label data-i18n="step2" for="ans2">What was the most challenging part?</label>
+        <textarea id="ans2" name="ans2" required></textarea>
+      </div>
+      <div class="question-box">
+        <label data-i18n="step3" for="ans3">What could be improved?</label>
+        <textarea id="ans3" name="ans3" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn" data-i18n="submitBtn">Submit Reflection</button>
+    </form>
   </section>
-<script src="translations.js"></script>
-<script src="index.js"></script>
+
+  <script src="translations.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
